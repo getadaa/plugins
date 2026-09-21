@@ -4,5 +4,12 @@
     "name": "Adaa",
     "url": "https://github.com/getadaa"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "adaa",
+      "source": "./plugins/adaa",
+      "description": "Run a company's IT with the adaa CLI: people, devices, findings, tasks, mail, domains, servers and backups.",
+      "version": "0.1.0"
+    }
+  ]
 }
