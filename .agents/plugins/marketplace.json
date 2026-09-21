@@ -3,5 +3,18 @@
   "interface": {
     "displayName": "Adaa"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "adaa",
+      "source": {
+        "source": "local",
+        "path": "./plugins/adaa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
 }
